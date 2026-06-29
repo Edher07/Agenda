@@ -36,3 +36,4 @@ class ListaContactos:
     def GET(self):
         contactos = self.obtenerContactos()
         return render.lista_contactos(contactos)
+        
